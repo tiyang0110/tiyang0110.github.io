@@ -7,4 +7,4 @@ const images = [
 const selImage = images[Math.floor(Math.random() * images.length)];
 const bgimage = document.querySelector('body');
 
-bgimage.style.backgroundImage = `url(/img/${selImage})`;
+bgimage.style.backgroundImage = `url(img/${selImage})`;
